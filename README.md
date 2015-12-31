@@ -3,9 +3,6 @@
 ###Description
 This app uses a pseudo code-first approach with Entity Framework and allows the user to create a to do list with categories. This is done with foreign key relationships between tables in the database.
 
-##Technologies used
-ASP.NET 5, MVC 6, Entity Framework 6
-
 ###Use
 This app connects to (localdb)\mssqllocaldb server to a database with the name ToDoRelationships. 
 
@@ -23,3 +20,6 @@ The Category table will have two columns:
 - Name: data type nvarchar(50), deselect _Allow Nulls_
 
 Create a one-to-many relationship between Item and Category.
+
+####Technologies used
+ASP.NET 5, MVC 6, Entity Framework 6
